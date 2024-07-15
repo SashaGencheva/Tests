@@ -10,7 +10,6 @@ public class SetUpTearDownDriver {
     @Before
     public void setUp() {
         driver = BrowserFactory.getBrowser("Chrome");
-
     }
 
     @After
